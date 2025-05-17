@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services | Web Developer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .services-section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .services-section h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #00f7ff;
+    }
+
+    .services-section p {
+      font-size: 18px;
+      color: #aaa;
+      margin-bottom: 40px;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 50px;
+    }
+
+    .btn {
+      background-color: transparent;
+      border: 1px solid #00f7ff;
+      color: #00f7ff;
+      padding: 10px 22px;
+      border-radius: 6px;
+      font-size: 15px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00f7ff;
+      color: #000;
+    }
+
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .service-card {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      width: 260px;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px rgba(0, 247, 255, 0.3);
+    }
+
+    .service-card h3 {
+      color: #00f7ff;
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      color: #ccc;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .price {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #888;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding: 30px 20px;
+      text-align: center;
+      background-color: #111;
+      border-top: 1px solid #222;
+    }
+
+    .footer p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .service-card {
+        width: 100%;
+      }
+
+      .services-section h1 {
+        font-size: 30px;
+      }
+
+      .button-group {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="services-section">
+    <h1>Our Services</h1>
+    <p>Professional solutions to build, test, and design your digital presence.</p>
+
+    <div class="button-group">
+      <a href="../index.html" class="btn">← Back to Home</a>
+      
+      <a href="tel:+919130205662" class="btn">📱 Call Me: 9130205662</a>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>🌐 Web Development</h3>
+        <p>We build fast, responsive, and secure websites with the latest technologies.</p>
+        <div class="price">Starting from ₹1000</div>
+      </div>
+
+      <div class="service-card">
+        <h3>🎨 UI/UX Design</h3>
+        <p>We craft intuitive, beautiful interfaces for web and mobile platforms.</p>
+        <div class="price">Starting from ₹1000</div>
+      </div>
+
+      <div class="service-card">
+        <h3>🧪 Website Testing</h3>
+        <p>We test functionality, speed, and security to ensure flawless performance.</p>
+        <div class="price">Starting from ₹1000</div>
+      </div>
+
+      <div class="service-card">
+        <h3>🖥️ Website Design</h3>
+        <p>We create stunning designs that represent your brand and engage users.</p>
+        <div class="price">Starting from ₹1000</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Web Developer | Designed by Himanshu Patil</p>
+  </footer>
+
+</body>
+</html>
